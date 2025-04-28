@@ -9,8 +9,8 @@
 * **LoadCell** : Load cell objects (0-3)
 
 ## Loadcell attributs
-* **raw_value_mVV** : REAL;
-* **measured_weight** : REAL;
+* **raw_value_mVV** : REAL; // Sensor value mV/V
+* **measured_weight** : REAL; // Sensor value in unit
 
 
 # Example of OPC-UA object request :
