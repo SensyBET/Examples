@@ -56,7 +56,7 @@ while True:
         value = node.get_data_value()
         add_to_buffer = buffer_storage(value)
         
-        print(f"Current value : {value}")
+        print(f"Current value :{value}")
 
         try : print(f"Last value :{BUFFER[0]}") # Print buffer if exist
         except : pass
